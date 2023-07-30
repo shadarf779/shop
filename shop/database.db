@@ -1,0 +1,9 @@
+
+databse name is shop:
+
+CREATE TABLE clothes (
+  product_id INT AUTO_INCREMENT PRIMARY KEY,
+  product_name VARCHAR(255) NOT NULL,
+  product_price DECIMAL(10, 2) NOT NULL,
+  product_date DATE NOT NULL
+);
